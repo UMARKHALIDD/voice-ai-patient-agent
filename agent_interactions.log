@@ -1,0 +1,113 @@
+2026-03-16 15:18:41,974 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:18:41,977 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-16 15:18:41,978 [INFO] PAYLOAD: {"phone_number":"03322096575"}
+2026-03-16 15:18:41,978 [INFO] ============================
+
+2026-03-16 15:21:09,431 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:21:09,433 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/
+2026-03-16 15:21:09,434 [INFO] PAYLOAD: {"sex":"male","city":"New York","email":"amorrison@gmail.com","state":"New York","zip_code":"70000","last_name":"Morrison","first_name":"John","phone_number":"03322096575","date_of_birth":"2009-10-05","address_line_1":"street thirty nine","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:21:09,436 [INFO] ============================
+
+2026-03-16 15:21:09,476 [INFO] SAVING NEW PATIENT TO DB: {'first_name': 'John', 'last_name': 'Morrison', 'date_of_birth': '2009-10-05', 'sex': 'male', 'phone_number': '03322096575', 'email': 'amorrison@gmail.com', 'address_line_1': 'street thirty nine', 'address_line_2': '', 'city': 'New York', 'state': 'New York', 'zip_code': '70000', 'insurance_provider': '', 'insurance_member_id': '', 'preferred_language': '', 'emergency_contact_name': '', 'emergency_contact_phone': ''}
+2026-03-16 15:21:09,564 [INFO] DATABASE SUCCESS: Created ID 90196014-4852-437a-9723-d2cce6fa3f18
+2026-03-16 15:23:50,260 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:23:50,261 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-16 15:23:50,261 [INFO] PAYLOAD: {"phone_number":"0332209657"}
+2026-03-16 15:23:50,262 [INFO] ============================
+
+2026-03-16 15:25:34,220 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:25:34,221 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-16 15:25:34,221 [INFO] PAYLOAD: {"phone_number":"03322096575"}
+2026-03-16 15:25:34,224 [INFO] ============================
+
+2026-03-16 15:25:58,075 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:25:58,076 [INFO] METHOD/URL: PUT https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/90196014-4852-437a-9723-d2cce6fa3f18
+2026-03-16 15:25:58,076 [INFO] PAYLOAD: {"sex":"","city":"","email":"","state":"","zip_code":"70001","last_name":"","first_name":"","patient_id":"90196014-4852-437a-9723-d2cce6fa3f18","phone_number":"","date_of_birth":"","address_line_1":"","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:25:58,076 [INFO] ============================
+
+2026-03-16 15:25:58,097 [INFO] INCOMING PUT PAYLOAD FOR 90196014-4852-437a-9723-d2cce6fa3f18: {"first_name":"","last_name":"","date_of_birth":"","sex":"","phone_number":"","email":"","address_line_1":"","address_line_2":"","city":"","state":"","zip_code":"70001","insurance_provider":"","insurance_member_id":"","preferred_language":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:25:58,136 [INFO] SUCCESS: Patient 90196014-4852-437a-9723-d2cce6fa3f18 updated in database.
+2026-03-16 15:26:20,412 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:26:20,412 [INFO] METHOD/URL: PUT https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/90196014-4852-437a-9723-d2cce6fa3f18
+2026-03-16 15:26:20,413 [INFO] PAYLOAD: {"sex":"","city":"Miami","email":"","state":"","zip_code":"","last_name":"","first_name":"","patient_id":"90196014-4852-437a-9723-d2cce6fa3f18","phone_number":"","date_of_birth":"","address_line_1":"","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:26:20,413 [INFO] ============================
+
+2026-03-16 15:26:20,416 [INFO] INCOMING PUT PAYLOAD FOR 90196014-4852-437a-9723-d2cce6fa3f18: {"first_name":"","last_name":"","date_of_birth":"","sex":"","phone_number":"","email":"","address_line_1":"","address_line_2":"","city":"Miami","state":"","zip_code":"","insurance_provider":"","insurance_member_id":"","preferred_language":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:26:20,445 [INFO] SUCCESS: Patient 90196014-4852-437a-9723-d2cce6fa3f18 updated in database.
+2026-03-16 15:30:52,080 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:30:52,082 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-16 15:30:52,084 [INFO] PAYLOAD: {"phone_number":"03322096999"}
+2026-03-16 15:30:52,085 [INFO] ============================
+
+2026-03-16 15:32:11,394 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:32:11,394 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-16 15:32:11,395 [INFO] PAYLOAD: {"phone_number":"03322096111"}
+2026-03-16 15:32:11,395 [INFO] ============================
+
+2026-03-16 15:35:06,569 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:35:06,570 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/
+2026-03-16 15:35:06,570 [INFO] PAYLOAD: {"sex":"male","city":"New York","email":"","state":"New York","zip_code":"01234","last_name":"Morrison","first_name":"Johnny","phone_number":"03322096111","date_of_birth":"1999-10-07","address_line_1":"Street thirty ninth","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-16 15:35:06,570 [INFO] ============================
+
+2026-03-16 15:35:06,574 [INFO] SAVING NEW PATIENT TO DB: {'first_name': 'Johnny', 'last_name': 'Morrison', 'date_of_birth': '1999-10-07', 'sex': 'male', 'phone_number': '03322096111', 'email': '', 'address_line_1': 'Street thirty ninth', 'address_line_2': '', 'city': 'New York', 'state': 'New York', 'zip_code': '01234', 'insurance_provider': '', 'insurance_member_id': '', 'preferred_language': '', 'emergency_contact_name': '', 'emergency_contact_phone': ''}
+2026-03-16 15:35:06,607 [INFO] DATABASE SUCCESS: Created ID 14601a78-0c75-4988-8e90-540b316e00c6
+2026-03-16 15:38:41,577 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:38:41,578 [INFO] METHOD/URL: GET http://localhost:8000/patients
+2026-03-16 15:38:41,578 [INFO] ============================
+
+2026-03-16 15:38:41,598 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:38:41,599 [INFO] METHOD/URL: GET http://localhost:8000/patients/
+2026-03-16 15:38:41,599 [INFO] ============================
+
+2026-03-16 15:41:59,056 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 15:41:59,059 [INFO] METHOD/URL: PUT https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/038254c5-6828-436a-a07e-a752b5a3ca8b
+2026-03-16 15:41:59,059 [INFO] PAYLOAD: {
+  
+  "emergency_contact_phone": "090909989809"
+ }
+2026-03-16 15:41:59,060 [INFO] ============================
+
+2026-03-16 15:41:59,071 [INFO] INCOMING PUT PAYLOAD FOR 038254c5-6828-436a-a07e-a752b5a3ca8b: {"first_name":null,"last_name":null,"date_of_birth":null,"sex":null,"phone_number":null,"email":null,"address_line_1":null,"address_line_2":null,"city":null,"state":null,"zip_code":null,"insurance_provider":null,"insurance_member_id":null,"preferred_language":"English","emergency_contact_name":null,"emergency_contact_phone":"090909989809"}
+2026-03-16 15:41:59,108 [INFO] SUCCESS: Patient 038254c5-6828-436a-a07e-a752b5a3ca8b updated in database.
+2026-03-16 17:50:29,942 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 17:50:29,960 [INFO] METHOD/URL: GET http://127.0.0.1:8000/docs
+2026-03-16 17:50:29,961 [INFO] ============================
+
+2026-03-16 17:50:30,594 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 17:50:30,596 [INFO] METHOD/URL: GET http://127.0.0.1:8000/openapi.json
+2026-03-16 17:50:30,597 [INFO] ============================
+
+2026-03-16 17:54:24,754 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 17:54:24,757 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/docs
+2026-03-16 17:54:24,758 [INFO] ============================
+
+2026-03-16 17:54:25,663 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 17:54:25,663 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/openapi.json
+2026-03-16 17:54:25,663 [INFO] ============================
+
+2026-03-16 17:55:10,396 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 17:55:10,398 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/
+2026-03-16 17:55:10,398 [INFO] ============================
+
+2026-03-16 18:18:45,935 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 18:18:45,936 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/?last_name=morrison
+2026-03-16 18:18:45,936 [INFO] ============================
+
