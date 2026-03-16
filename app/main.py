@@ -11,7 +11,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler("agent_interactions.log"), # The persistent file 
-        logging.StreamHandler(sys.stdout)             # Your current terminal printing
+        logging.StreamHandler(sys.stdout)             # current terminal printing
     ]
 )
 logger = logging.getLogger("patient-api")
@@ -23,7 +23,7 @@ async def log_requests(request: Request, call_next):
     # Consume body safely
     body_bytes = await request.body()
     
-    # This keeps the body available for your actual API routes
+    # This keeps the body available for my actual API routes
     async def receive():
         return {"type": "http.request", "body": body_bytes}
     request._receive = receive
@@ -33,7 +33,7 @@ async def log_requests(request: Request, call_next):
     url = request.url
     body_str = body_bytes.decode("utf-8")
 
-    # This replaces your "print" statements but shows up in the same place
+   
     logger.info("\n===== VAPI INTERACTION =====")
     logger.info(f"METHOD/URL: {method} {url}")
     if body_str:

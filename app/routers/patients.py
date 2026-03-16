@@ -76,7 +76,7 @@ def get_patient(patient_id: str, db: Session = Depends(get_db)):
 import logging
 import json
 
-# Ensure this name matches the logger configured in your main.py
+# Ensuring this name matches the logger configured in my main.py
 logger = logging.getLogger("patient-api")
 
 @router.put("/{patient_id}", status_code=200)
