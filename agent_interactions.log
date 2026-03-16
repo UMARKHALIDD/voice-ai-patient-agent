@@ -111,3 +111,76 @@
 2026-03-16 18:18:45,936 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/?last_name=morrison
 2026-03-16 18:18:45,936 [INFO] ============================
 
+2026-03-16 21:42:03,348 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 21:42:03,349 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/docs
+2026-03-16 21:42:03,349 [INFO] ============================
+
+2026-03-16 21:42:03,800 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 21:42:03,801 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/openapi.json
+2026-03-16 21:42:03,802 [INFO] ============================
+
+2026-03-16 21:42:23,647 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-16 21:42:23,648 [INFO] METHOD/URL: GET https://confiding-wobbily-tiffanie.ngrok-free.dev/
+2026-03-16 21:42:23,648 [INFO] ============================
+
+2026-03-17 03:23:10,145 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:23:10,161 [INFO] METHOD/URL: GET http://localhost:8000/patients
+2026-03-17 03:23:10,161 [INFO] ============================
+
+2026-03-17 03:23:10,223 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:23:10,223 [INFO] METHOD/URL: GET http://localhost:8000/patients/
+2026-03-17 03:23:10,224 [INFO] ============================
+
+2026-03-17 03:33:48,324 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:33:48,336 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-17 03:33:48,337 [INFO] PAYLOAD: {"phone_number":"03322091100"}
+2026-03-17 03:33:48,337 [INFO] ============================
+
+2026-03-17 03:36:34,095 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:36:34,100 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/
+2026-03-17 03:36:34,100 [INFO] PAYLOAD: {"sex":"male","city":"New York","email":"brad123@gmail.com","state":"New York","zip_code":"70001","last_name":"Henderson","first_name":"Brad","phone_number":"03322091100","date_of_birth":"2002-10-05","address_line_1":"street thirty ninth","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-17 03:36:34,101 [INFO] ============================
+
+2026-03-17 03:36:34,275 [INFO] SAVING NEW PATIENT TO DB: {'first_name': 'Brad', 'last_name': 'Henderson', 'date_of_birth': '2002-10-05', 'sex': 'male', 'phone_number': '03322091100', 'email': 'brad123@gmail.com', 'address_line_1': 'street thirty ninth', 'address_line_2': '', 'city': 'New York', 'state': 'New York', 'zip_code': '70001', 'insurance_provider': '', 'insurance_member_id': '', 'preferred_language': '', 'emergency_contact_name': '', 'emergency_contact_phone': ''}
+2026-03-17 03:36:34,723 [INFO] DATABASE SUCCESS: Created ID 4722327e-e023-485d-b382-da4d0892d815
+2026-03-17 03:38:31,937 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:38:31,939 [INFO] METHOD/URL: GET http://localhost:8000/patients
+2026-03-17 03:38:31,939 [INFO] ============================
+
+2026-03-17 03:38:31,961 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:38:31,962 [INFO] METHOD/URL: GET http://localhost:8000/patients/
+2026-03-17 03:38:31,962 [INFO] ============================
+
+2026-03-17 03:38:46,200 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:38:46,200 [INFO] METHOD/URL: GET http://localhost:8000/patients
+2026-03-17 03:38:46,200 [INFO] ============================
+
+2026-03-17 03:38:46,209 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:38:46,209 [INFO] METHOD/URL: GET http://localhost:8000/patients/
+2026-03-17 03:38:46,209 [INFO] ============================
+
+2026-03-17 03:40:31,768 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:40:31,772 [INFO] METHOD/URL: POST https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/check-patient
+2026-03-17 03:40:31,774 [INFO] PAYLOAD: {"phone_number":"03322096964"}
+2026-03-17 03:40:31,775 [INFO] ============================
+
+2026-03-17 03:40:56,105 [INFO] 
+===== VAPI INTERACTION =====
+2026-03-17 03:40:56,106 [INFO] METHOD/URL: PUT https://confiding-wobbily-tiffanie.ngrok-free.dev/patients/038254c5-6828-436a-a07e-a752b5a3ca8b
+2026-03-17 03:40:56,106 [INFO] PAYLOAD: {"sex":"","city":"","email":"","state":"","zip_code":"90111","last_name":"","first_name":"","patient_id":"038254c5-6828-436a-a07e-a752b5a3ca8b","phone_number":"","date_of_birth":"","address_line_1":"","address_line_2":"","insurance_provider":"","preferred_language":"","insurance_member_id":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-17 03:40:56,106 [INFO] ============================
+
+2026-03-17 03:40:56,149 [INFO] INCOMING PUT PAYLOAD FOR 038254c5-6828-436a-a07e-a752b5a3ca8b: {"first_name":"","last_name":"","date_of_birth":"","sex":"","phone_number":"","email":"","address_line_1":"","address_line_2":"","city":"","state":"","zip_code":"90111","insurance_provider":"","insurance_member_id":"","preferred_language":"","emergency_contact_name":"","emergency_contact_phone":""}
+2026-03-17 03:40:56,219 [INFO] SUCCESS: Patient 038254c5-6828-436a-a07e-a752b5a3ca8b updated in database.
