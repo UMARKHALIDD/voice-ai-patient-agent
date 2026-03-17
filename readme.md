@@ -172,6 +172,8 @@ Due to the ngrok free-tier limitation, only one public URL can be exposed at a t
 
 To demonstrate the dashboard functionality, a video recording is attached with this submission showing:
 
+DEMO VIDEO LINK : https://drive.google.com/drive/folders/10maSoIZlRiAmBa5FfTopx0X7zP6Hl00Z?usp=sharing
+
 The voice agent registering a patient via phone call.
 
 The backend inserting the data into the database.

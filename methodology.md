@@ -298,6 +298,8 @@ Due to ngrok free-tier limitations, the dashboard runs locally.
 
 A demo video is included to demonstrate:
 
+DEMO VIDEO LINK : https://drive.google.com/drive/folders/10maSoIZlRiAmBa5FfTopx0X7zP6Hl00Z?usp=sharing
+
 voice registration
 
 real-time database updates
